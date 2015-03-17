@@ -1,0 +1,15 @@
+github.com/ajstarks/svgo	git	89e3ac64b5b3e403a5e7c35ea4f98d45db7b4518	
+github.com/juju/errors	git	036046bfdccf6f576e2e5dec7f7878597bcaebe7	
+github.com/juju/gojsonpointer	git	0154bf5a168b672d8c97d8dd83a54cb60cd088e8	
+github.com/juju/gojsonreference	git	f0d24ac5ee330baa21721cdff56d45e4ee42628e	
+github.com/juju/gojsonschema	git	995b906ce18b2726e9d284efbfa79bd7070ec8c8	
+github.com/juju/jujusvg	git	99cc8e38406a692203d6a4673199e1683f6e8d82	
+github.com/juju/loggo	git	dc8e19f7c70a62a59c69c40f85b8df09ff20742c	
+github.com/juju/names	git	ce4ecb2967822062fc606e733919c677c584ab7e	
+github.com/juju/schema	git	27a52be50766490a6fd3531865095fda6c0eeb6d	
+github.com/juju/utils	git	a90aa2e02b9e7fe354ab816e05b1e0a77f27242d	
+golang.org/x/crypto	git	4ed45ec682102c643324fae5dff8dab085b6c300	
+gopkg.in/errgo.v1	git	81357a83344ddd9f7772884874e5622c2a3da21c	
+gopkg.in/juju/charm.v5-unstable	git	4b7b3e4404d287d75797b5b21e22d7297f792646	
+gopkg.in/mgo.v2	git	c6a7dce14133ccac2dcac3793f1d6e2ef048503a	
+gopkg.in/yaml.v1	git	9f9df34309c04878acc86042b16630b0f696e1de	
