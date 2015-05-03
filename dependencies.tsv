@@ -1,15 +1,17 @@
-github.com/ajstarks/svgo	git	89e3ac64b5b3e403a5e7c35ea4f98d45db7b4518	
-github.com/juju/errors	git	036046bfdccf6f576e2e5dec7f7878597bcaebe7	
-github.com/juju/gojsonpointer	git	0154bf5a168b672d8c97d8dd83a54cb60cd088e8	
-github.com/juju/gojsonreference	git	f0d24ac5ee330baa21721cdff56d45e4ee42628e	
-github.com/juju/gojsonschema	git	995b906ce18b2726e9d284efbfa79bd7070ec8c8	
-github.com/juju/jujusvg	git	99cc8e38406a692203d6a4673199e1683f6e8d82	
-github.com/juju/loggo	git	dc8e19f7c70a62a59c69c40f85b8df09ff20742c	
-github.com/juju/names	git	ce4ecb2967822062fc606e733919c677c584ab7e	
-github.com/juju/schema	git	27a52be50766490a6fd3531865095fda6c0eeb6d	
-github.com/juju/utils	git	a90aa2e02b9e7fe354ab816e05b1e0a77f27242d	
-golang.org/x/crypto	git	4ed45ec682102c643324fae5dff8dab085b6c300	
-gopkg.in/errgo.v1	git	81357a83344ddd9f7772884874e5622c2a3da21c	
-gopkg.in/juju/charm.v5-unstable	git	4b7b3e4404d287d75797b5b21e22d7297f792646	
-gopkg.in/mgo.v2	git	c6a7dce14133ccac2dcac3793f1d6e2ef048503a	
-gopkg.in/yaml.v1	git	9f9df34309c04878acc86042b16630b0f696e1de	
+github.com/ajstarks/svgo	git	47ca2bbf229311c9b8b96a9188ae37790250757b	2014-12-19T14:47:18Z
+github.com/juju/errors	git	036046bfdccf6f576e2e5dec7f7878597bcaebe7	2015-02-11T20:59:49Z
+github.com/juju/gojsonpointer	git	afe8b77aa08f272b49e01b82de78510c11f61500	2015-02-04T19:46:29Z
+github.com/juju/gojsonreference	git	f0d24ac5ee330baa21721cdff56d45e4ee42628e	2015-02-04T19:46:33Z
+github.com/juju/gojsonschema	git	e1ad140384f254c82f89450d9a7c8dd38a632838	2015-03-12T17:00:16Z
+github.com/juju/jujusvg	git	6411c72583acebf1a3cca8665d02443d1cc74d64	2015-05-01T09:52:41Z
+github.com/juju/loggo	git	d65cf1daa29d5c44f9463550708da9567e7d9e49	2015-03-25T23:27:34Z
+github.com/juju/names	git	aa54bbc71373ca47abc11385dce9e187d5896274	2015-03-26T00:17:32Z
+github.com/juju/schema	git	d1dd30f010f5de7e18822d85539479026ce3209d	2015-03-26T01:25:20Z
+github.com/juju/utils	git	ef1739b688bcdb3f4f690bd5ccd4b320f2a837bb	2015-03-26T15:01:25Z
+github.com/juju/xml	git	74b125a6f36c7e19446ccb42b0d91878ce289749	2015-03-13T10:43:57Z
+golang.org/x/crypto	git	b7d6bf2c61544745a02f83dec90393985fc3a065	2015-03-18T17:04:25Z
+gopkg.in/errgo.v1	git	81357a83344ddd9f7772884874e5622c2a3da21c	2014-10-13T17:33:38Z
+gopkg.in/juju/charm.v5	git	6b74a2771545912f8a91a544b0f28405b9938624	2015-04-14T14:33:47Z
+gopkg.in/mgo.v2	git	c6a7dce14133ccac2dcac3793f1d6e2ef048503a	2015-01-24T11:37:54Z
+gopkg.in/yaml.v1	git	9f9df34309c04878acc86042b16630b0f696e1de	2014-09-24T16:16:07Z
+launchpad.net/tomb	bzr	gustavo@niemeyer.net-20140529072043-hzcrlnl3ygvg914q	18

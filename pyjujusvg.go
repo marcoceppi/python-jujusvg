@@ -5,10 +5,9 @@ import (
     "log"
     "os"
     "strings"
-    "net/http"
 
     "gopkg.in/errgo.v1"
-    "gopkg.in/juju/charm.v5-unstable"
+    "gopkg.in/juju/charm.v5"
 
     // Import the jujusvg library and the juju charm library
     "github.com/juju/jujusvg"
@@ -17,17 +16,7 @@ import (
 // iconURL takes a reference to a charm and returns the URL for that charm's icon.
 // In this case, we're using the api.jujucharms.com API to provide the icon's URL.
 func iconURL(ref *charm.Reference) string {
-    url := "https://api.jujucharms.com/v4/" + ref.Path() + "/archive/icon.svg"
-    resp, err := http.Head(url)
-    if err != nil {
-        log.Fatalf("WHAT? %s\n", err);
-    }
-
-    if resp.StatusCode == 404 {
-        url = "https://jujucharms.com/static/img/icons/default-charm.svg"
-    }
-
-    return url
+    return "https://api.jujucharms.com/v4/" + ref.Path() + "/icon.svg"
 }
 
 func generate(bundle_file string) (*jujusvg.Canvas, error) {
@@ -44,10 +33,15 @@ func generate(bundle_file string) (*jujusvg.Canvas, error) {
         return nil, errgo.Newf("Error parsing bundle: %s\n", err)
     }
 
+
+    fetcher := &jujusvg.HTTPFetcher{
+        IconURL: iconURL,
+    }
+
     // Next, build a canvas of the bundle.  This is a simplified version of a charm.Bundle
     // that contains just the position information and charm icon URLs necessary to build
     // the SVG representation of the bundle
-    canvas, err := jujusvg.NewFromBundle(bundle, iconURL)
+    canvas, err := jujusvg.NewFromBundle(bundle, iconURL, fetcher)
     if err != nil {
         return nil, errgo.Newf("Error generating canvas: %s\n", err)
     }
