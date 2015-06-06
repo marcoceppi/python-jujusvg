@@ -16,6 +16,10 @@ import (
 // iconURL takes a reference to a charm and returns the URL for that charm's icon.
 // In this case, we're using the api.jujucharms.com API to provide the icon's URL.
 func iconURL(ref *charm.Reference) string {
+    if ref.Schema == "local" {
+        return "http://marcanonical.com/icon.svg"
+    }
+
     return "https://api.jujucharms.com/v4/" + ref.Path() + "/icon.svg"
 }
 
