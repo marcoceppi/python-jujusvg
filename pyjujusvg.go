@@ -7,15 +7,15 @@ import (
     "strings"
 
     "gopkg.in/errgo.v1"
-    "gopkg.in/juju/charm.v5"
+    "gopkg.in/juju/charm.v6-unstable"
 
     // Import the jujusvg library and the juju charm library
-    "github.com/juju/jujusvg"
+    "gopkg.in/juju/jujusvg.v1"
 )
 
 // iconURL takes a reference to a charm and returns the URL for that charm's icon.
 // In this case, we're using the api.jujucharms.com API to provide the icon's URL.
-func iconURL(ref *charm.Reference) string {
+func iconURL(ref *charm.URL) string {
     if ref.Schema == "local" {
         return "http://marcanonical.com/icon.svg"
     }
